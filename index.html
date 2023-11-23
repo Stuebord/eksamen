@@ -6,63 +6,79 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/font/css/all.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Main Page</title>
 </head>
 <body>
     <header>
         <nav>
+            <a href="index.html"><img src="https://placehold.co/60x60" class="logo" alt="logo"></a>
             <ul>
-                <li><a href="index.html">Logo</a></li>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="cur_page">Home</a></li>
                 <li><a href="products.html">Portfolio</a></li>
                 <li><a href="about.html">About</a></li>
-                <li>Contact</li>
+                <li><a href="about.html#contact_us" class="gul_boks">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section>
+    <section id="index_section1">
         <h1>Compelling headline</h1>
-        <p>Squirty cheese feta danish fontina. Cream cheese stinking bishop cheese and biscuits cheesy feet cow cauliflower cheese cheese strings hard cheese.</p>
-        <a href="about.html">Read more about our services</a>
+        <p>Squirty cheese feta danish fontina. Cream cheese stinking bishop cheese and biscuits cheesy feet cow cauliflower cheese cheese strings hard cheese. Fromage blue castello roquefort cream cheese mozzarella chalk and cheese pepper jack cow.</p>
+        <a href="about.html#services" class="gul_boks">Read more about our services</a>
     </section>
-    <section>
+    <section id="index_section2">
         <h2>Engaging subheading. What can you help your visitors with</h2>
         <p>Cauliflower cheese roquefort feta cream cheese mascarpone. Who moved my cheese bavarian bergkase manchego.</p>
     </section>
-    <section>
-        <h2>About our company</h2>
-        <p>Monterey jack squirty cheese boursin roquefort blue castello lancashire cheddar lancashire. Cheese on toast the big cheese port-salut cheesy feet blue castello rubber cheese ricotta cheeseburger. Hard cheese.</p>
-        <a href="about.html">Read more about us</a>
+    <section id="index_section3">
+        <img src="https://placehold.co/400x400" alt="Placeholder">
+        <div>    
+            <h2>About our company</h2>
+            <p>Monterey jack squirty cheese boursin roquefort blue castello lancashire cheddar lancashire. Cheese on toast the big cheese port-salut cheesy feet blue castello rubber cheese ricotta cheeseburger. Hard cheese. Gouda cauliflower cheese stinking bishop. Cheese on toast croque monsieur smelly cheese cheesy grin cheesy feet mozzarella dolcelatte dolcelatte. Taleggio boursin hard cheese bavarian bergkase edam cheese slices cheese triangles stinking bishop. Bavarian bergkase camembert de normandie rubber cheese squirty cheese roquefort.</p>
+            <a href="about.html" class="hvit_boks">Read more about us</a>
+        </div>
     </section>
-    <section>
+    <section id="index_section4">
         <h2>Our services</h2>
-        <i class="fa-solid fa-people-group"></i>
-        <h3>Branding</h3>
-        <p>Who moved my cheese bavarian bergkase manchego.</p>
-        <i class="fa-solid fa-cloud-arrow-up"></i>
-        <h3>Design</h3>
-        <p>Who moved my cheese bavarian bergkase manchego.</p>
-        <i class="fa-solid fa-code"></i>
-        <h3>Development</h3>
-        <p>Who moved my cheese bavarian bergkase manchego.</p>
-        <i class="fa-solid fa-wifi"></i>
-        <h3>Support</h3>
-        <p>Who moved my cheese bavarian bergkase manchego.</p>
+        <div id="all_services">
+            <article>
+                <i class="fa-solid fa-people-group fa-xl"></i>
+                <h3>Branding</h3>
+                <p>Who moved my cheese bavarian bergkase manchego.</p>
+            </article>
+            <article>
+                <i class="fa-solid fa-cloud-arrow-up fa-xl"></i>
+                <h3>Design</h3>
+                <p>Who moved my cheese bavarian bergkase manchego.</p>
+            </article>
+            <article>
+                <i class="fa-solid fa-code fa-xl"></i>
+                <h3>Development</h3>
+                <p>Who moved my cheese bavarian bergkase manchego.</p>
+            </article>
+            <article>
+                <i class="fa-solid fa-wifi fa-xl"></i>
+                <h3>Support</h3>
+                <p>Who moved my cheese bavarian bergkase manchego.</p>
+            </article>
+        </div>
     </section>
-    <section>
+    <section id="index_section5">
         <h2>Sign up for our newsletter</h2>
         <label for="email_input">Your email</label>
         <input type="text" name="email" id="email_input">
-        <button type="button">Sign me up</button>
+        <button type="button" class="gul_boks">Sign me up</button>
     </section>
     <footer>
+        <a href="index.html"><img src="https://placehold.co/60x60" class="logo" alt="logo"></a>
         <h2>Company copyright 2023</h2>
         <nav>
             <ul>
-                <li><a href="index.html">Logo</a></li>
-                <li><i class="fa-brands fa-square-facebook"></i></li>
-                <li><i class="fa-brands fa-square-instagram"></i></li>
-                <li><i class="fa-brands fa-linkedin"></i></li>
+                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-lg"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram fa-lg"></i></a></li>
+                <li><a href="https://no.linkedin.com/"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
             </ul>
         </nav>
     </footer>
