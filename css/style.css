@@ -1,3 +1,4 @@
+/*Jeg brukte W3 schools for å hjelpe med forskjellige atributter og lignende*/
 html *{
     font-family: 'Montserrat', 'Open Sans', 'Roboto', sans-serif;
 }
@@ -9,7 +10,7 @@ html *{
 header nav ul {
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, auto); /*Her brukte jeg chatGPT som hjelp https://chat.openai.com/*/
     gap: 10px;
     position: absolute;
     top: 0;
@@ -46,7 +47,7 @@ footer h2{
 
 footer nav {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, auto); /*Her brukte jeg chatGPT som hjelp https://chat.openai.com/*/
     position: absolute;
     bottom: 0;
     right: 0;
@@ -69,7 +70,7 @@ footer nav ul li a i{
 }
 
 #index_section1{
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/background.jpg"); /*Her brukte jeg stack overflow for å finne ut hva som var problemet med bakgrunnsbilde https://stackoverflow.com/questions/8783026/css-background-image-in-a-different-folder-from-css*/
     background-size: cover;
     text-align: center;
     padding: 2rem;
