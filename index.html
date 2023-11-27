@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Here you can read about our company and you can also find information on the different services we offer">
+    <meta property="og:url" content=""> <!--Usikker på hvordan dette skal gjøre mtp locahost-->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The go to webdeveloper">
+    <meta property="og:description" content="Do you need a webpage done? This is the place to go!">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/font/css/all.css">
     <link rel="stylesheet" href="css/style.css">
@@ -15,25 +19,25 @@
 <body>
     <header>
         <nav>
-            <a href="index.html"><img src="img/logo1.png" class="logo" alt="logo"></a>
+            <a href="index.html" aria-label="Home"><img src="img/logo1.png" class="logo" alt="logo"></a>
             <ul>
-                <li><a href="index.html" class="cur_page">Home</a></li>
-                <li><a href="products.html">Portfolio</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="about.html#contact_us" class="gul_boks">Contact</a></li>
+                <li><a href="index.html" class="cur_page" aria-label="Home">Home</a></li>
+                <li><a href="products.html" aria-label="Portfolio">Portfolio</a></li>
+                <li><a href="about.html" aria-label="About">About</a></li>
+                <li><a href="about.html#contact_us" class="gul_boks" aria-label="Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section id="index_section1">
+    <section id="index_section1" aria-label="Introduction">
         <h1>Compelling headline</h1>
         <p>Squirty cheese feta danish fontina. Cream cheese stinking bishop cheese and biscuits cheesy feet cow cauliflower cheese cheese strings hard cheese. Fromage blue castello roquefort cream cheese mozzarella chalk and cheese pepper jack cow.</p>
         <a href="about.html#services" class="gul_boks">Read more about our services</a>
     </section>
-    <section id="index_section2">
+    <section id="index_section2" aria-label="What can we help you with">
         <h2>Engaging subheading. What can you help your visitors with</h2>
         <p>Cauliflower cheese roquefort feta cream cheese mascarpone. Who moved my cheese bavarian bergkase manchego.</p>
     </section>
-    <section id="index_section3">
+    <section id="index_section3" aria-label="About us">
         <img src="https://placehold.co/400x400" alt="Placeholder">
         <div>    
             <h2>About our company</h2>
@@ -41,7 +45,7 @@
             <a href="about.html" class="hvit_boks">Read more about us</a>
         </div>
     </section>
-    <section id="index_section4">
+    <section id="index_section4" aria-label="Our services">
         <h2>Our services</h2>
         <div id="all_services">
             <article>
@@ -66,20 +70,20 @@
             </article>
         </div>
     </section>
-    <section id="index_section5">
+    <section id="index_section5" aria-label="newsletter signup">
         <h2>Sign up for our newsletter</h2>
         <label for="email_input">Your email</label>
         <input type="text" name="email" id="email_input">
         <button type="button" class="gul_boks">Sign me up</button>
     </section>
     <footer>
-        <a href="index.html"><img src="img/logo1.png" class="logo" alt="logo"></a>
+        <a href="index.html" aria-label="home"><img src="img/logo1.png" class="logo" alt="logo"></a>
         <h2>Company copyright 2023</h2>
         <nav>
             <ul>
-                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook fa-lg"></i></a></li>
-                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram fa-lg"></i></a></li>
-                <li><a href="https://no.linkedin.com/"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                <li><a href="https://www.facebook.com/" aria-label="Facebook"><i class="fa-brands fa-square-facebook fa-lg"></i></a></li>
+                <li><a href="https://www.instagram.com/" aria-label="Instagram"><i class="fa-brands fa-square-instagram fa-lg"></i></a></li>
+                <li><a href="https://no.linkedin.com/" aria-label="Linkedin"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
             </ul>
         </nav>
     </footer>

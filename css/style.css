@@ -69,14 +69,15 @@ footer nav ul li a i{
 }
 
 #index_section1{
-    background-color: #cecece;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
     text-align: center;
     padding: 2rem;
+    color: #fff;
 }
 
 #index_section1 p{
     padding: 2rem;
-    
 }
 
 #index_section2{
@@ -141,7 +142,9 @@ footer nav ul li a i{
 
 #products_heading{
     text-align: center;
-    background-color: #cecece;
+    color:#fff;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
@@ -177,7 +180,8 @@ footer nav ul li a i{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #252525;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
     padding: 5rem;
 }
 
