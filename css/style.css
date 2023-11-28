@@ -132,6 +132,7 @@ footer nav ul li a i{
     position: relative;
     top: 2rem;
     margin-bottom: 3rem;
+    min-width: 50px;
 }
 
 #index_section5{
@@ -265,6 +266,7 @@ footer nav ul li a i{
     margin: 10px;
     display: flex;
     flex-direction: column;
+    min-width: 200px;
     max-width: 692px;
     max-height: 692px;
     transition: transform 0.3s ease;
